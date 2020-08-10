@@ -4,6 +4,7 @@ import com.github.curriculeon.anthropoid.Person;
 import com.github.curriculeon.anthropoid.PersonFactory;
 
 import java.util.List;
+import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 /**
@@ -23,6 +24,7 @@ public final class ArrayConverter extends PersonConversionAgent<Person[]> {
 
     //TODO
     public List<Person> toList() {
+        //Stream.of(Person[]).collect(Collectors.toList());
         return null;
     }
 
